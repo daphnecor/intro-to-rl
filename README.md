@@ -6,10 +6,12 @@ _Programming exercises from Reinforcement Learning, an introduction by Sutton an
 
 #### Chapter 2. Multi-armed Bandits
 
+- [x] Read
 - [x] Tackling a non-stationary problem (Ex. 2.5., page 33)
 
-#### Chapter 3. 
+#### Chapter 3.
 
+- [ ] Read
 - `#TODO`
 
 ### Chapter 4. 

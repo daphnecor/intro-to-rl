@@ -23,4 +23,4 @@ _Programming exercises from Reinforcement Learning, an introduction by Sutton an
 
 ### Fun small projects
 
-- Implementation of Q-learning in the iterated prisoners dilemma (IPD)
+- [Implementation and analysis](https://github.com/daphnecor/prisoners-dilemma) of Q-learning agents in the iterated prisoners dilemma (IPD)

@@ -21,6 +21,6 @@ _Programming exercises from Reinforcement Learning, an introduction by Sutton an
 
 ### ...
 
-### Small projects
+### Fun small projects
 
-- [x] Implement Q-learning in the iterated prisoners dilemma
+- Implementation of Q-learning in the iterated prisoners dilemma (IPD)

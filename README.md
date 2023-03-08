@@ -19,6 +19,6 @@ _Programming exercises from Reinforcement Learning, an introduction by Sutton an
 
 ### ...
 
-### Fun
+### Small projects
 
 - [x] Implement Q-learning in the iterated prisoners dilemma

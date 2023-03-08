@@ -1,6 +1,6 @@
 ## Introduction to Reinforcement Learning 
 
-_Exercises from Reinforcement Learning, an introduction by Sutton and Barto_
+_Programming exercises from Reinforcement Learning, an introduction by Sutton and Barto_
 
 ### Part I: Tabular Solution Methods
 
@@ -10,3 +10,15 @@ _Exercises from Reinforcement Learning, an introduction by Sutton and Barto_
 
 #### Chapter 3. 
 
+- [ ] ?? C
+
+### Chapter 4. 
+
+- `#TODO`
+
+
+### ...
+
+### Fun
+
+- [x] Implement Q-learning in the iterated prisoners dilemma

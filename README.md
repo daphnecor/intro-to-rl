@@ -10,7 +10,7 @@ _Programming exercises from Reinforcement Learning, an introduction by Sutton an
 
 #### Chapter 3. 
 
-- [ ] ?? C
+- [ ] ??
 
 ### Chapter 4. 
 

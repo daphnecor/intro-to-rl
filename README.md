@@ -1,6 +1,6 @@
 ## Introduction to Reinforcement Learning 
 
-_Programming exercises from Reinforcement Learning, an introduction by Sutton and Barto_
+_Programming exercises from Reinforcement Learning, an introduction by Sutton and Barto._
 
 ### Part I: Tabular Solution Methods
 
@@ -10,7 +10,7 @@ _Programming exercises from Reinforcement Learning, an introduction by Sutton an
 
 #### Chapter 3. 
 
-- [ ] ??
+- `#TODO`
 
 ### Chapter 4. 
 

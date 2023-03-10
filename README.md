@@ -11,12 +11,12 @@ _Programming exercises from Reinforcement Learning, an introduction by Sutton an
 
 #### Chapter 3.
 
-- [ ] Read
-- `#TODO`
+- [x] Read
 
 ### Chapter 4. 
 
-- `#TODO`
+- [x] Convergence of iterative policy evaluation on a small gridworld (Reproduced Figure 4.1, page 77)
+- [ ] Read
 
 
 ### ...

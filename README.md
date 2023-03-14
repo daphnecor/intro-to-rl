@@ -15,11 +15,15 @@ _Programming exercises from Reinforcement Learning, an introduction by Sutton an
 
 ### Chapter 4. 
 
+- [x] Read
 - [x] Convergence of iterative policy evaluation on a small gridworld (Reproduced Figure 4.1, page 77)
+- [x] Jack's car rental (Exercise 4.7, page 82)
+- [x] Gambler's problem (Exercise 4.9, page 84)
+
+### Chapter 5
+
 - [ ] Read
-
-
-### ...
+- [ ] ...
 
 ### Fun small projects
 

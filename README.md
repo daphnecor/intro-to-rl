@@ -32,4 +32,10 @@ _Programming exercises from Reinforcement Learning, an introduction by Sutton an
 
 ### Fun small projects
 
-- [Implementation and analysis](https://github.com/daphnecor/prisoners-dilemma) of Q-learning agents in the iterated prisoners dilemma (IPD)
+- Implementation and analysis of Q-learning agents in the iterated prisoners dilemma (IPD) [[Github repo](https://github.com/daphnecor/prisoners-dilemma)]
+     
+     <a target="_blank" href="https://colab.research.google.com/drive/1dUiexAIpfyGwaiJ-M3OsAAONsXnX4hty?usp=sharing">
+     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+     </a>
+      
+  

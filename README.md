@@ -22,8 +22,13 @@ _Programming exercises from Reinforcement Learning, an introduction by Sutton an
 
 ### Chapter 5
 
-- [ ] Read
-- [ ] ...
+- [x] Read
+- [x] Monte Carlo control in Easy21; a simplification of Blackjack (Reproduced Figure 5.1, page 100)
+- [ ] Racetrack (Exercise 5.12, page 111)
+
+### Chapter 6
+
+- ...
 
 ### Fun small projects
 

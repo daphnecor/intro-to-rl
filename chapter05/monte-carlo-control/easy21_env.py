@@ -33,7 +33,6 @@ class CardDealer:
             card_color = np.random.choice(["black", "red"], p=[1/3, 2/3])
 
         # Add card to deck
-        # TODO: add option to subtract card
         self.hand_sum += card_val
         self.hand.append(card_val)
 

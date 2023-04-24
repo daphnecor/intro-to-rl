@@ -4,7 +4,7 @@ _Programming exercises from Reinforcement Learning, an introduction by Sutton an
 
 ### Part I: Tabular Solution Methods
 
-#### Chapter 2. Multi-armed Bandits
+#### Chapter 2. Multi-Armed Bandits
 
 - [x] Read
 - [x] Tackling a non-stationary problem (Ex. 2.5., page 33)
@@ -34,11 +34,9 @@ _Programming exercises from Reinforcement Learning, an introduction by Sutton an
 - 3. It is easy and efficient to focus MC methods on a subset of the state space. 
 
 A recurring challenge is maintaining sufficient exploration. How do we ensure that an agent continues to explore? Two main approaches:
-- **On-policy methods**: $\pi(a \mid s) > 0 \forall s, a$ ("soft") but shift gradually closer to a deterministic policy. Central idea: GPI
+- **On-policy methods**: $\pi(a \mid s) > 0 \, \forall \, s, a$ ("soft") but shift gradually closer to a deterministic policy. Central idea: GPI
 - **Off-policy methods**: choose one policy to generate sample episodes (behavior policy $b$) and one target policy which we optimize $\pi$. This class of learning methods are based on the idea of _importance sampling_, which is a variance reduction technique. Put simply, we choose a distribution which encourages the important values (i.e. those that have more impact on the parameters). In RL, the importance sampling ratio is:
-\begin{align}
-\rho_{t:T-1} = \prod_{k=1}^T-1 \frac{\pi(A_k \mid S_k)}{b(A_k \mid S_k)}
-\begin{align}
+$$\rho_{t:T-1} = \prod_{k=1}^{T-1} \frac{\pi(A_k \mid S_k)}{b(A_k \mid S_k)}$$
 There are various kinds of importance sampling methods, such as _ordinary importance sampling_ or _weighted importance sampling_. 
 
 ---
@@ -47,12 +45,17 @@ There are various kinds of importance sampling methods, such as _ordinary import
 - [x] Monte Carlo control in Easy21; a simplification of Blackjack (Reproduced Figure 5.1, page 100)
 - [ ] Racetrack (Exercise 5.12, page 111)
 
-### Chapter 6
+### Chapter 6. Temporal Difference Learning
 
 - [ ] Read
-- [ ] 
+- [ ] ...
 
-### Fun small projects
+### Chapter 7
+
+- [ ] Read
+- [ ] ...
+
+### Fun Small Projects
 
 - Implementation and analysis of Q-learning agents in the iterated prisoners dilemma (IPD) [[Github repo](https://github.com/daphnecor/prisoners-dilemma)]
      

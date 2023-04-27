@@ -16,7 +16,10 @@ _Programming exercises from Reinforcement Learning, an introduction by Sutton an
 ### Chapter 4. Dynamic Programming
 
 ---
-> Important idea: General Policy Iteration (GPI)
+
+> Dynamic Programming (DP) methods compute the full expectations to evaluate states. The general DP update rule is:
+$$V(S_t) \leftarrow \mathbb{E}[R_{t+1} + \gamma V(S_{t+1})]$$
+
 ---
 
 - [x] Read
@@ -28,7 +31,10 @@ _Programming exercises from Reinforcement Learning, an introduction by Sutton an
 
 ---
 
-> Monte Carlo methods learn value functions and optimal policies from experience by _sampling episodes_. Advantages of MC methods over DP: 
+> Monte Carlo (MC) methods learn value functions and optimal policies from experience by _sampling episodes_. The general update rule for MC methods is:
+$$V(S_t) \leftarrow V(S_t) + \alpha [\textcolor{red}{G_t} - V(S_t)]$$
+where $\textcolor{red}{G_t}$ is the episode return, which is used as a target. Note that these methods require finishing a full episode before the value estimates can be updated. 
+Advantages of MC methods over DP: 
 - 1. Can interact directly with the environment 
 - 2. Can be used with simulation of sample models. This is useful as in many applications constructing an explicit transition model is hard, but simulating sample episodes is easy. 
 - 3. It is easy and efficient to focus MC methods on a subset of the state space. 
@@ -46,6 +52,13 @@ There are various kinds of importance sampling methods, such as _ordinary import
 - [ ] Racetrack (Exercise 5.12, page 111)
 
 ### Chapter 6. Temporal Difference Learning
+
+---
+
+> Temporal-Difference (TD) methods learn after every timestep. The general update rule is:
+$$V(S_t) \leftarrow V(S_t) $$
+
+---
 
 - [ ] Read
 - [ ] ...

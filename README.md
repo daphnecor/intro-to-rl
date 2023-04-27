@@ -62,7 +62,13 @@ where $\textcolor{red}{R_{t+1} + \gamma V(S_{t+1})}$ is used as a target.
 ---
 
 - [x] Read
-- [ ] Implement $\epsilon-$greedy Sarsa in Example 6.5: The Windy Gridworld (page 130)
+- [ ] Implement $\varepsilon$-greedy Sarsa in Example 6.5: The Windy Gridworld (page 130)
+
+<figure>
+<center>
+<img src='https://www.yanxurui.cc/posts/ai/2019-04-24-RL-Introduction/unified_view-144-best-min.jpg' width='600'/>
+<figcaption>A unified view of the classes of RL algorithms discussed so far.</figcaption></center>
+</figure>
 
 ### Chapter 7
 

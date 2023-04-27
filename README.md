@@ -55,13 +55,14 @@ There are various kinds of importance sampling methods, such as _ordinary import
 
 ---
 
-> Temporal-Difference (TD) methods learn after every timestep. The general update rule is:
-$$V(S_t) \leftarrow V(S_t) $$
+> Temporal-Difference (TD) methods update the value estimates after **every** timestep. The general update rule is:
+$$V(S_t) \leftarrow V(S_t) + \alpha [\textcolor{red}{R_{t+1} + \gamma V(S_{t+1})} - V(S_t)]$$
+where $\textcolor{red}{R_{t+1} + \gamma V(S_{t+1})}$ is used as a target.
 
 ---
 
-- [ ] Read
-- [ ] ...
+- [x] Read
+- [ ] Implement $\epsilon-$greedy Sarsa in Example 6.5: The Windy Gridworld (page 130)
 
 ### Chapter 7
 

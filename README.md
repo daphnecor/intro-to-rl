@@ -75,9 +75,7 @@ where $\textcolor{red}{R_{t+1} + \gamma V(S_{t+1})}$ is used as a target.
 ---
 
 > $n$-step methods give you a spectrum between Monte-Carlo methods on the one extreme and one-step methods on the other. $n$-step methods are essentially approximations of the full return, truncated after $n$ steps with a correction for the remaining missing terms: $V(S_{t+n-1})$. The state-value learning algorithm for $n$-step learning is:
-\begin{align*}
-     V_{t+n}(S_t) = V_{t+n-1}(S_t) + \alpha \left[ \color{red}{G_{t:t+n}} - V_{t+n-1}(S_t) \right]
-\end{align*}
+$$V_{t+n}(S_t) = V_{t+n-1}(S_t) + \alpha \left[ \textcolor{red}{G_{t:t+n}} - V_{t+n-1}(S_t) \right]$$
 where $\color{red}{G_{t:t+n}}$ is the target. What is a good value for $n$? That's a good question, and it seems there is no general answer. You typically look for a "sweet spot". Intuition. Small $n$: I credit the reward received to the last action; large $n$: I will update my estimates of the previous five actions in response for the reward I just received (See Fig. 7.4, page 147). The idea of $n$-step methods can be integrated with previously introduced topics like SARSA, Off-policy, Importance sampling, and so on.
 
 ---

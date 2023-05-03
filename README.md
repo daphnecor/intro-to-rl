@@ -13,7 +13,7 @@ _Programming exercises from Reinforcement Learning, an introduction by Sutton an
 
 - [x] Read
 
-### Chapter 4. Dynamic Programming
+#### Chapter 4. Dynamic Programming
 
 ---
 
@@ -27,7 +27,7 @@ $$V(S_t) \leftarrow \mathbb{E}[R_{t+1} + \gamma V(S_{t+1})]$$
 - [x] Jack's car rental (Exercise 4.7, page 82)
 - [x] Gambler's problem (Exercise 4.9, page 84)
 
-### Chapter 5. Monte Carlo Methods
+#### Chapter 5. Monte Carlo Methods
 
 ---
 
@@ -51,7 +51,7 @@ There are various kinds of importance sampling methods, such as _ordinary import
 - [x] Monte Carlo control in Easy21; a simplification of Blackjack (Reproduced Figure 5.1, page 100)
 - [ ] Racetrack (Exercise 5.12, page 111)
 
-### Chapter 6. Temporal Difference Learning
+#### Chapter 6. Temporal Difference Learning
 
 ---
 
@@ -70,12 +70,30 @@ where $\textcolor{red}{R_{t+1} + \gamma V(S_{t+1})}$ is used as a target.
 <figcaption>A unified view of the classes of RL algorithms discussed so far.</figcaption></center>
 </figure>
 
-### Chapter 7
+#### Chapter 7. $n$-step Bootstrapping
+
+---
+
+> $n$-step methods give you a spectrum between Monte-Carlo methods on the one extreme and one-step methods on the other. $n$-step methods are essentially approximations of the full return, truncated after $n$ steps with a correction for the remaining missing terms: $V(S_{t+n-1})$. The state-value learning algorithm for $n$-step learning is:
+\begin{align*}
+     V_{t+n}(S_t) = V_{t+n-1}(S_t) + \alpha \left[ \color{red}{G_{t:t+n}} - V_{t+n-1}(S_t) \right]
+\end{align*}
+where $\color{red}{G_{t:t+n}}$ is the target. What is a good value for $n$? That's a good question, and it seems there is no general answer. You typically look for a "sweet spot". Intuition. Small $n$: I credit the reward received to the last action; large $n$: I will update my estimates of the previous five actions in response for the reward I just received (See Fig. 7.4, page 147). The idea of $n$-step methods can be integrated with previously introduced topics like SARSA, Off-policy, Importance sampling, and so on.
+
+---
+
+- [x] Read
+- [ ] Implement Exercise 7.2
+- [ ] Implement Figure 7.2: Performance of $n$-step TD-methods as a function of $\alpha$, for various values of $n$.
+
+
+#### Chapter 8. Planning and Learning with Tabular Methods
 
 - [ ] Read
 - [ ] ...
 
-### Fun Small Projects
+
+#### Fun Small Projects
 
 - Implementation and analysis of Q-learning agents in the iterated prisoners dilemma (IPD) [[Github repo](https://github.com/daphnecor/prisoners-dilemma)]
      

@@ -60,7 +60,7 @@ where $\textcolor{red}{R_{t+1} + \gamma V(S_{t+1})}$ is used as a target.
 ---
 
 - [x] Read
-- [ ] Example 6.2: Random walk (page 125)
+- [x] Example 6.2: Random walk (page 125)
 - [ ] Figure 6.2: Batch training (page 127)
 - [ ] Example 6.4: Sarsa in the windy gridworld (page 130)
 - [ ] Example 6.6: The cliff walking task (page 132)

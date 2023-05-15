@@ -61,9 +61,9 @@ where $\textcolor{red}{R_{t+1} + \gamma V(S_{t+1})}$ is used as a target.
 
 - [x] Read
 - [x] Example 6.2: Random walk (page 125)
-- [x] Figure 6.2: Batch training (page 127)
+- [x] Figure 6.2: Batch training (page 127) --> $\textcolor{red}{TBR}$
 - [x] Example 6.4: Sarsa in the windy gridworld (page 130)
-- [ ] Example 6.6: The cliff walking task (page 132)
+- [x] Example 6.6: The cliff walking task (page 132) --> $\textcolor{red}{TBR}$
 - [ ] Figure 6.5: Comparison of Q-learning and Double Q-learning (page 135)
 
 <figure>
